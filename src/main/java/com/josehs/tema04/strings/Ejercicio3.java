@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class Ejercicio3 {
     /**
-     * @author josehs
      * Contar palabras
      */
-    public static int contarPalabras(String cadena) {
-        String[] palabras = cadena.trim().split(" +");
+    public static int contarPalabras(String texto) {
+        String[] palabras = texto.trim().split("\\s+");
         return palabras.length;
     }
     public static void main(String[] args) {

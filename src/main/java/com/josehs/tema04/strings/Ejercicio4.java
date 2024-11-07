@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     /**
-     * @author josehs
-     * @param args
      * Contar vocales y consonantes
      */
     public static void main(String[] args) {

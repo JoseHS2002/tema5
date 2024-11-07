@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
     /**
-     * @author josehs
-     * @param args
      * Contar vocales y consonantes
      */
     public static void main(String[] args) {
@@ -29,4 +27,18 @@ public class Ejercicio2 {
         System.out.println("La frase "+frase+" contiene "+contador2+" vocales");
         System.out.println("La frase "+frase+" contiene "+consonantes+" consonantes");
     }
+
+    public static boolean esVocal(char c) {
+        String vocales = "aeiou";
+        return vocales.indexOf(c) >=0;
+    }
+/*
+    public static int contarVocales(String texto) {
+        int vocales = 0;
+        for (int i = 0; i < texto.length(); i++) {
+            if (esVocal((texto.charAt())));
+        }
+        return vocales;
+    }
+*/
 }

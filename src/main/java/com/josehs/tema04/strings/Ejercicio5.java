@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio5 {
     /**
-     * @author josehs
-     * @param args
      * Palabra de mayor longitud
      */
     public static void main(String[] args) {

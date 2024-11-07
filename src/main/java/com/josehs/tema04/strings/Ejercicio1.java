@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
     /**
-     * @author josehs
-     * @param args
      * Poner la primera letra en mayuscula
      */
     public static void main(String[] args) {
