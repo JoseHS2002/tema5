@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ejercicio3 {
     /**
      * @author josehs
-     * @param args
      * Contar palabras
      */
     public static int contarPalabras(String cadena) {
@@ -16,6 +15,7 @@ public class Ejercicio3 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Dime un texto: ");
         String palabrasUsuario = teclado.nextLine();
+        teclado.close();
         System.out.println("\nLa cadena contiene "+contarPalabras(palabrasUsuario)+" palabras");
     }
 

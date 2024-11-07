@@ -31,6 +31,7 @@ public class Ejercicio5 {
         for (int i=0; i<mayor; i++){
             palabras=palabras.concat(String.valueOf(frases.charAt(posMayor+i)));
         }
+        teclado.close();
         System.out.println("La palabra más larga es: "+palabras+" y tiene "+mayor+" caracteres");
     }
 }

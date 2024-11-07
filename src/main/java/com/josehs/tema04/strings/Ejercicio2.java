@@ -25,6 +25,7 @@ public class Ejercicio2 {
             }
         }
         consonantes = contador1-contador2;
+        teclado.close();
         System.out.println("La frase "+frase+" contiene "+contador2+" vocales");
         System.out.println("La frase "+frase+" contiene "+consonantes+" consonantes");
     }

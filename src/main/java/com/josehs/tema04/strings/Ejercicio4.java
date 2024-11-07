@@ -36,6 +36,7 @@ public class Ejercicio4 {
                 }
             }
         }
+        teclado.close();
         System.out.println("Frase original: "+palabras);
         System.out.println("Vocales("+nVoc+"): "+voc);
         System.out.println("Consonantes("+nCons+"): "+cons);

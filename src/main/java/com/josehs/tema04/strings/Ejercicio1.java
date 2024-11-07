@@ -22,6 +22,6 @@ public class Ejercicio1 {
             resultado += inicial.toUpperCase()+restante+" ";
         }
         System.out.println(resultado);
-
+        teclado.close();
     }
 }
