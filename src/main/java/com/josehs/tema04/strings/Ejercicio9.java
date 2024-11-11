@@ -2,9 +2,9 @@ package com.josehs.tema04.strings;
 
 import java.util.Scanner;
 
-public class Ejercicio7 {
+public class Ejercicio9 {
     /**
-     * Mostrar cada palabra en una linea distinta
+     * Imprimir caracteres impares
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -14,13 +14,10 @@ public class Ejercicio7 {
 
         for (int i=0; i< palabras.length; i++){
             String palabra=palabras[i];
-            if (cadena != " "){
-                System.out.print(palabra+"\n");
-            } else {
-                System.out.println();
+            if (i%2!=0){
+                System.out.print(palabra.charAt(i));
             }
-
         }
-        teclado.close();
+
     }
 }
