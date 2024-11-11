@@ -11,24 +11,24 @@ public class Ejercicio10 {
         Scanner teclado = new Scanner(System.in);
         String palabra;
         char [] polindromo;
-        int izq, der;
+        int lef, rig;
         System.out.println("Dime una palabra: ");
         palabra = teclado.nextLine();
         polindromo = palabra.toCharArray();
-        izq = 0;
-        der = polindromo.length - 1;
+        lef = 0;
+        rig = polindromo.length - 1;
 
-        while (izq<der){
-            if (polindromo[izq] == polindromo[der]){
-                der --;
-                izq++;
+        while (lef<rig){
+            if (polindromo[lef] == polindromo[rig]){
+                rig --;
+                lef++;
             } else {
                 System.out.println("No es un polindromo");
                 break;
             }
         }
 
-        if (izq == der){
+        if (lef == rig){
             System.out.println("Es un polindromo");
         }
     }

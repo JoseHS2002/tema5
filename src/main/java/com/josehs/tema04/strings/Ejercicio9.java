@@ -12,7 +12,8 @@ public class Ejercicio9 {
         String cadena = teclado.nextLine();
         String [] palabras=cadena.split(" ");
 
-        for (int i=0; i< palabras.length; i++){
+        //StringBuilder impares = new StringBuilder();
+        for (int i=1; i< palabras.length; i+=2){
             String palabra=palabras[i];
             if (i%2!=0){
                 System.out.print(palabra.charAt(i));
