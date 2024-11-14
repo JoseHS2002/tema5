@@ -2,7 +2,8 @@ package com.josehs.tema04.strings;
 
 public class Ejercicio14 {
     /**
-     *Imprimir 4 cadenas con numeros del 0 al 9, ir de derecha a izquierda y sustituir "3" por "C"
+     * Imprimir 4 cadenas con numeros del 0 al 9, ir de derecha a izquierda y sustituir "3" por "C"
+     * Muy util para realizar ataques de fuerza bruta
      */
     public static void main(String[] args) {
         contarDigitos();
@@ -29,7 +30,7 @@ public class Ejercicio14 {
                         n1 = String.valueOf(l);
                         //Sustituir el "3" por "C" en la primera cadena
                         n1 = n1.equals("3") ? "C" : n1;
-
+                        //Vas imprimiendo los valores
                         System.out.println(n4 + "-" + n3 + "-" + n2 + "-" + n1);
                     }
                 }
