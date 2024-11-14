@@ -31,5 +31,6 @@ public class Ejercicio10 {
         if (lef == rig){
             System.out.println("Es un polindromo");
         }
+        teclado.close();
     }
 }

@@ -19,6 +19,6 @@ public class Ejercicio9 {
                 System.out.print(palabra.charAt(i));
             }
         }
-
+        teclado.close();
     }
 }
