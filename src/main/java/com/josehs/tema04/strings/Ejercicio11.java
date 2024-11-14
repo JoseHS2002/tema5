@@ -25,6 +25,7 @@ public class Ejercicio11 {
         if (nombre.length()>2){
             System.out.println(nombre.substring(nombre.length()-2));
         }
+        teclado.close();
         System.out.println("");
         System.out.println(nombre.replaceAll("\\s?",""));
     }

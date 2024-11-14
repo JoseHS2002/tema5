@@ -13,5 +13,6 @@ public class Ejercicio12 {
         String texto = teclado.nextLine();
         System.out.println(texto.replaceAll("[es]", "no por"));
         System.out.println(texto.replaceAll("[^esto, ^es, ^bueno]", "*"));
+        teclado.close();
     }
 }
