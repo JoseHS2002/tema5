@@ -37,7 +37,7 @@ public class Ejercicio13 {
                     System.out.println(palabra1+": La primera palabra es la más larga");
                 } else if (p2 > p1 && p2 > p3) {
                     System.out.println(palabra2+": La segunda palabra es la más larga");
-                } else if (p3 < p1 && p3 <p2) {
+                } else if (p3 > p1 && p3 > p2) {
                     System.out.println(palabra3 + ": La tercera palabra es la más larga");
                 } else {
                     System.out.println("Las tres palabras tienen la misma longitud");
@@ -52,6 +52,7 @@ public class Ejercicio13 {
                 }
 
             } else if (opcion == 2) {
+                //Decir cual es la palabra mas corta
                 String palabra1, palabra2, palabra3;
                 System.out.println("Escribe la primera palabra");
                 palabra1 = teclado.nextLine();
@@ -68,7 +69,7 @@ public class Ejercicio13 {
                     System.out.println(palabra1+": La primera palabra es la más corta");
                 } else if (p2 < p1 && p2 < p3) {
                     System.out.println(palabra2+": La segunda palabra es la más corta");
-                } else if (p3 < p1 && p3 <p2){
+                } else if (p3 < p1 && p3 < p2){
                     System.out.println(palabra3+": La tercera palabra es la más corta");
                 } else {
                     System.out.println("Las tres palabras tienen la misma longitud");
@@ -83,6 +84,7 @@ public class Ejercicio13 {
                 }
 
             } else if (opcion == 3){
+                //Numero de vocales
                 char[] vocales={'a','e','i','o','u'};
                 String voc="";
                 int nVoc=0;

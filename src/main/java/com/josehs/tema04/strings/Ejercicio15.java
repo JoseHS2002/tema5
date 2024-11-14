@@ -10,7 +10,7 @@ public class Ejercicio15 {
     static int j = 0;
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        String entrada, entrada2, entrada3= "";
+        String entrada, entrada2, entrada3;
 
         System.out.println("Dime el alto");
         entrada = teclado.toString();
