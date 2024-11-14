@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio11 {
     /**
-     *
+     *Pedir 3 cadenas
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
