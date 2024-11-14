@@ -10,20 +10,18 @@ public class Ejercicio15 {
     static int j = 0;
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        String entrada, entrada2, entrada3= "";
 
         System.out.println("Dime el alto");
-        String entrada = "";
-        entrada = teclado.nextLine();
+        entrada = teclado.toString();
         int n1 = Integer.parseInt(entrada);
 
         System.out.println("Dime el ancho");
-        String entrada2 = "";
-        entrada2 = teclado.nextLine();
+        entrada2 = teclado.toString();
         int n2 = Integer.parseInt(entrada2);
 
         System.out.println("Dime el caracter");
-        String entrada3 = "";
-        entrada3 = teclado.nextLine();
+        entrada3 = teclado.toString();
         int n3 = Integer.parseInt(entrada3);
 
         teclado.close();
