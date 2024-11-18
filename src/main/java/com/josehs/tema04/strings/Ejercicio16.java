@@ -9,6 +9,7 @@ public class Ejercicio16 {
      * @return dniNumero;
      *
      */
+    public Scanner teclado = new Scanner(System.in);
     public static void main(String[] args) {
         int DNI = solicitarDocumentoNacionalIdentificacion();
         String NIF = calcularLetra(DNI);
