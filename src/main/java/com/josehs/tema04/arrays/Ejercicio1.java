@@ -23,6 +23,7 @@ public class Ejercicio1 {
         numero [8] = keyboard.nextInt();
         numero [9] = keyboard.nextInt();
 
+        keyboard.close();
         System.out.println("Numeros");
 
         int suma=0;

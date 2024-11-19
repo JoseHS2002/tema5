@@ -3,6 +3,9 @@ package com.josehs.tema04.arrays;
 import java.util.Scanner;
 
 public class Ejercicio3 {
+    /**
+     * Introducir 20 valores en un array y decir de 4 en 4.
+     */
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
 
@@ -30,6 +33,7 @@ public class Ejercicio3 {
         numero [18] = keyboard.nextInt();
         numero [19] = keyboard.nextInt();
 
+        keyboard.close();
         System.out.println("Numeros");
         System.out.print(numero[0]);
         System.out.print(numero[1]);
