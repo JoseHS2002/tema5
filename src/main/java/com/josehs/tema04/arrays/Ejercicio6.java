@@ -11,14 +11,9 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         int [] arrayX = new int[10];
         int [] arrayY = new int[10];
-        for (int i = 0; i < arrayX.length; i++){
-            arrayX[i] = random.nextInt(0,10);
-        }
-        for (int i = 0; i < arrayY.length; i++){
-            arrayY[i] = random.nextInt(0,10);
-        }
-        System.out.println("Primer array: "+Arrays.toString(arrayX));
-        System.out.println("Segundo array: "+Arrays.toString(arrayY));
+
+        System.out.println("Primer array: "+rellenarArrayX(arrayX));
+        System.out.println("Segundo array: "+rellenarArrayY(arrayY));
         System.out.println("Suma: "+Arrays.toString(sumarArrays(arrayX,arrayY)));
         System.out.println("Division: "+Arrays.toString(dividirArrays(arrayX,arrayY)));
     }
@@ -30,7 +25,7 @@ public class Ejercicio6 {
      * @return
      */
     public static float [] dividirArrays(int [] arrayX, int [] arrayY){
-        float [] arrayDivision = new float[10];
+        float [] arrayDivision = new float[arrayX];
         for (int i = 0; i < arrayX.length; i++){
             arrayDivision[i] = (float) arrayX[i] / arrayY[i];
         }
@@ -44,11 +39,23 @@ public class Ejercicio6 {
      * @return
      */
     public static int [] sumarArrays(int [] arrayX, int [] arrayY){
-        int [] arraySuma = new int[10];
+        int [] arraySuma = new int[arrayX];
         for (int i = 0; i < arrayX.length; i++){
             arraySuma[i] = arrayX[i] + arrayY[i];
         }
         return arraySuma;
+    }
+    public static void rellenarArrayX(double[] array, double valorMinimo, double valorMaximo) {
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextDouble(valorMinimo, valorMaximo);
+        }
+    }
+    public static void rellenarArrayY(double[] array, double valorMinimo, double valorMaximo) {
+        Random random = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextDouble(valorMinimo, valorMaximo);
+        }
     }
 }
 
