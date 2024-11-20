@@ -46,13 +46,11 @@ public class Ejercicio6 {
         return arraySuma;
     }
     public static void rellenarArrayX(double[] array, double valorMinimo, double valorMaximo) {
-        Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextDouble(valorMinimo, valorMaximo);
         }
     }
     public static void rellenarArrayY(double[] array, double valorMinimo, double valorMaximo) {
-        Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextDouble(valorMinimo, valorMaximo);
         }
