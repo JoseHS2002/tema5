@@ -1,5 +1,6 @@
 package com.josehs.tema04.arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio2 {
@@ -30,4 +31,35 @@ public class Ejercicio2 {
         System.out.println("Numeros impares");
         System.out.println(numero[1]+", "+numero[3]+numero[5]+", "+numero[7]+", "+numero[9]);
     }
+
+    public static String arrayToString(char[] array, Paridad paridad){
+        final int NUM_ELEMENTOS = paridad == Paridad.PAR ? array.length / 2 : array.length / 2 +1;
+        char[] resultado;
+        int contador = 0;
+        int inicio = paridad == Paridad.par;
+        for (int i = paridad == Paridad.PAR ? 0 : 1; i < array.length; i += 2){
+            resultado[contador]= array[i];
+        }
+        return Arrays.toString();
+    }
+
+    public static String arrayToString(double[] array, int decimales){
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        String espacio = "";
+        String coma = ", ";
+        String formato = "%."+decimales;
+        for (int i=0; i < array.length; i++) {
+            if (i==array.length -1){
+                coma = "";
+            }
+            sb.append(String.format(" %.4f", array[i]));
+            if (i == 0) {
+                espacio = " ";
+            }
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
 }

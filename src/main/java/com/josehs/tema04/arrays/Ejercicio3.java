@@ -35,26 +35,38 @@ public class Ejercicio3 {
 
         keyboard.close();
         System.out.println("Numeros");
-        System.out.print(numero[0]);
-        System.out.print(numero[1]);
-        System.out.print(numero[2]);
-        System.out.println(numero[3]);
-        System.out.print(numero[4]);
-        System.out.print(numero[5]);
-        System.out.print(numero[6]);
-        System.out.println(numero[7]);
-        System.out.print(numero[8]);
-        System.out.print(numero[9]);
-        System.out.print(numero[10]);
-        System.out.println(numero[11]);
-        System.out.print(numero[12]);
-        System.out.print(numero[13]);
-        System.out.print(numero[14]);
-        System.out.println(numero[15]);
-        System.out.print(numero[16]);
-        System.out.print(numero[17]);
-        System.out.print(numero[18]);
-        System.out.print(numero[19]);
+        System.out.println(numero[0]+", "+numero[1]+", "+numero[2]+numero[3]);
+        System.out.println(numero[4]+", "+numero[5]+", "+numero[6]+", "+numero[7]);
+        System.out.println(numero[8]+", "+numero[9]+", "+numero[10]+", "+numero[11]);
+        System.out.println(numero[12]+", "+numero[13]+", "+numero[14]+", "+numero[15]);
+        System.out.print(numero[16]+", "+numero[17]+", "+numero[18]+", "+numero[19]);
 
     }
+
+    public static String determinarLongitudMaxima(double array, int decimales) {
+        if (array==null){
+            return null;
+        }
+        int longitudMaxima = 0;
+        String formato = "%.";
+
+        return longitudMaxima;
+    }
+
+
+
+    public static String arrayToString(double[] array, int decimales, int columnas, int padding){
+        StringBuilder sb = new StringBuilder();
+        String formato = "%."+decimales+"f";
+        int tamanyoColumna = determinarLongitudMaxima(array, decimales, padding);
+        String formatoColumna = "%-"+tamanyoColumna+"s";
+        for (int i=0; i < array.length; i++) {
+            sb.append(String.format(formatoColumna, array[i]));
+            if ((i+1)) {
+                sb.append("\n");
+            }
+        }
+        return sb.toString();
+    }
+
 }
