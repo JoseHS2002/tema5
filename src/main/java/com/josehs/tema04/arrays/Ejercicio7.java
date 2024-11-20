@@ -10,7 +10,7 @@ public class Ejercicio7 {
     public static Random random = new Random();
     public static void main(String[] args) {
         int [] nRandom = new int[100];
-        for (int i = 0; 99 > i; i++){
+        for (int i = 0; 100 > i; i++){
             nRandom[i] = random.nextInt(0,101);
         }
         pentagono(nRandom);

@@ -30,11 +30,11 @@ public class Ejercicio6 {
      * @return
      */
     public static float [] dividirArrays(int [] arrayX, int [] arrayY){
-        float [] arraySuma = new float[10];
+        float [] arrayDivision = new float[10];
         for (int i = 0; i < arrayX.length;i++){
-            arraySuma[i] = (float) arrayX[i] / arrayY[i];
+            arrayDivision[i] = (float) arrayX[i] / arrayY[i];
         }
-        return arraySuma;
+        return arrayDivision;
     }
 
     /**
