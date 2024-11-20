@@ -31,7 +31,7 @@ public class Ejercicio6 {
      */
     public static float [] dividirArrays(int [] arrayX, int [] arrayY){
         float [] arrayDivision = new float[10];
-        for (int i = 0; i < arrayX.length;i++){
+        for (int i = 0; i < arrayX.length; i++){
             arrayDivision[i] = (float) arrayX[i] / arrayY[i];
         }
         return arrayDivision;
@@ -45,7 +45,7 @@ public class Ejercicio6 {
      */
     public static int [] sumarArrays(int [] arrayX, int [] arrayY){
         int [] arraySuma = new int[10];
-        for (int i = 0; i < arrayX.length;i++){
+        for (int i = 0; i < arrayX.length; i++){
             arraySuma[i] = arrayX[i] + arrayY[i];
         }
         return arraySuma;
