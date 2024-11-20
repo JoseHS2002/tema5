@@ -17,10 +17,10 @@ public class Ejercicio6 {
         for (int i = 0; i < arrayY.length; i++){
             arrayY[i] = random.nextInt(0,10);
         }
-        System.out.println(Arrays.toString(arrayX));
-        System.out.println(Arrays.toString(arrayY));
-        System.out.println(Arrays.toString(sumarArrays(arrayX,arrayY)));
-        System.out.println(Arrays.toString(dividirArrays(arrayX,arrayY)));
+        System.out.println("Primer array: "+Arrays.toString(arrayX));
+        System.out.println("Segundo array: "+Arrays.toString(arrayY));
+        System.out.println("Suma: "+Arrays.toString(sumarArrays(arrayX,arrayY)));
+        System.out.println("Division: "+Arrays.toString(dividirArrays(arrayX,arrayY)));
     }
 
     /**
