@@ -43,7 +43,7 @@ public class Ejercicio9 {
     }
 
     /**
-     * Visualizar el contenido del metodo anterior
+     * Visualizar el contenido del metodo crearArray
      * @param array
      */
     public static void visualizarArray(int [] array) {
@@ -55,7 +55,7 @@ public class Ejercicio9 {
     }
 
     /**
-     * Mostrar posicion y contenido de los elementos pares
+     * Mostrar posicion y contenido de los elementos pares del metodo crearArray
      * @param array
      */
     public static void visualizarPares(int [] array) {
@@ -68,7 +68,7 @@ public class Ejercicio9 {
     }
 
     /**
-     * Mostrar posicion y contenido de los elementos que sean multiplos de 3
+     * Mostrar posicion y contenido de los elementos del metodo crearArray que sean multiplos de 3
      * @param array
      */
     public static void visualizarMultiplos3(int [] array) {
