@@ -33,7 +33,7 @@ public class Ejercicio9 {
     }
 
     /**
-     *
+     * Crea un array con numeros aleatorios del 0 al 50
      * @param array
      */
     public static void crearArray(int [] array) {
@@ -43,7 +43,7 @@ public class Ejercicio9 {
     }
 
     /**
-     *
+     * Visualizar el contenido del metodo anterior
      * @param array
      */
     public static void visualizarArray(int [] array) {
@@ -55,7 +55,7 @@ public class Ejercicio9 {
     }
 
     /**
-     *
+     * Mostrar posicion y contenido de los elementos pares
      * @param array
      */
     public static void visualizarPares(int [] array) {
@@ -68,7 +68,7 @@ public class Ejercicio9 {
     }
 
     /**
-     *
+     * Mostrar posicion y contenido de los elementos que sean multiplos de 3
      * @param array
      */
     public static void visualizarMultiplos3(int [] array) {
