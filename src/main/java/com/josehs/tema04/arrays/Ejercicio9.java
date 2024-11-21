@@ -7,7 +7,7 @@ public class Ejercicio9 {
     public static Scanner keyboard = new Scanner(System.in);
     public static Random random = new Random();
     public static void main(String[] args) {
-
+        int[] array = new int[50];
         int n;
 
         do{
@@ -21,13 +21,13 @@ public class Ejercicio9 {
             System.out.println("Selecciona una opcion: ");
             n = Integer.parseInt(keyboard.nextLine());
             if(n==1){
-                crearArray();
+                crearArray(array);
             }else if(n==2){
-                visualizarArray();
+                visualizarArray(array);
             }else if(n==3){
-                visualizarPares();
+                visualizarPares(array);
             }else if(n==4){
-                visualizarMultiplos3();
+                visualizarMultiplos3(array);
             }
         } while(n != 0);
     }
@@ -37,7 +37,7 @@ public class Ejercicio9 {
      * @param array
      */
     public static void crearArray(int [] array) {
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(51);
         }
     }
