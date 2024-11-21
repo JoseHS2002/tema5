@@ -37,11 +37,9 @@ public class Ejercicio9 {
      * @param array
      */
     public static void crearArray(int [] array) {
-        int[] array = new int[arrays];
-        for (int i = 0; i < arrays; i++) {
+        for (int i = 0; i < 50; i++) {
             array[i] = random.nextInt(51);
         }
-        return array;
     }
 
     /**
