@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Ejercicio9 {
     public static Scanner keyboard = new Scanner(System.in);
+    public static Random random = new Random();
     public static void main(String[] args) {
 
         int n;
@@ -30,15 +31,23 @@ public class Ejercicio9 {
             }
         } while(n != 0);
     }
+
+    /**
+     *
+     * @param array
+     */
     public static void crearArray(int [] array) {
-        Random random = new Random();
         int[] array = new int[arrays];
         for (int i = 0; i < arrays; i++) {
             array[i] = random.nextInt(51);
         }
         return array;
     }
-    }
+
+    /**
+     *
+     * @param array
+     */
     public static void visualizarArray(int [] array) {
         System.out.println("Contenido del array:");
         for (int i = 0; i < array.length; i++) {
@@ -46,6 +55,11 @@ public class Ejercicio9 {
         }
         System.out.println();
     }
+
+    /**
+     *
+     * @param array
+     */
     public static void visualizarPares(int [] array) {
         System.out.println("Elementos pares del array:");
         for (int i = 0; i < array.length; i++) {
@@ -54,6 +68,11 @@ public class Ejercicio9 {
             }
         }
     }
+
+    /**
+     *
+     * @param array
+     */
     public static void visualizarMultiplos3(int [] array) {
         System.out.println("Elementos múltiplos de 3 del array:");
         for (int i = 0; i < array.length; i++) {
