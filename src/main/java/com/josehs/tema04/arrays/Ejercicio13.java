@@ -1,6 +1,10 @@
 package com.josehs.tema04.arrays;
 
 public class Ejercicio13 {
+    /**
+     * El segundo array indica los elementos pares del primer array.
+     * @param args
+     */
     public static void main(String[] args) {
 
         int[] V = new int[51];
@@ -10,12 +14,12 @@ public class Ejercicio13 {
         }
 
         int[] P = new int[V.length];
-        int contadorPares = 0;
+        int contarPares = 0;
 
         for (int elemento : V) {
             if (elemento % 2 == 0) {
-                P[contadorPares] = elemento;
-                contadorPares++;
+                P[contarPares] = elemento;
+                contarPares++;
             }
         }
 
@@ -25,9 +29,9 @@ public class Ejercicio13 {
         }
         System.out.println();
 
-        if (contadorPares > 0) {
+        if (contarPares > 0) {
             System.out.println("Array P: ");
-            for (int i = 0; i < contadorPares; i++) {
+            for (int i = 0; i < contarPares; i++) {
                 System.out.print(P[i] + " ");
             }
             System.out.println();
