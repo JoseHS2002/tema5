@@ -8,14 +8,14 @@ public class Ejercicio13 {
     public static void main(String[] args) {
 
         int[] V = new int[51];
-
+        //Generar numeros aleatorios
         for (int i = 0; i < V.length; i++) {
             V[i] = (int) (Math.random() * 100);
         }
 
         int[] P = new int[V.length];
         int contarPares = 0;
-
+        //Buscar los elementos pares y poner en el array V.
         for (int elemento : V) {
             if (elemento % 2 == 0) {
                 P[contarPares] = elemento;
@@ -28,7 +28,7 @@ public class Ejercicio13 {
             System.out.print(elemento + " ");
         }
         System.out.println();
-
+        //Sacar los elementos pares encontrados
         if (contarPares > 0) {
             System.out.println("Array P: ");
             for (int i = 0; i < contarPares; i++) {
