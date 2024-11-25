@@ -11,11 +11,13 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         int [] arrayX = new int[10];
         int [] arrayY = new int[10];
-
+/*
         System.out.println("Primer array: "+rellenarArrayX(arrayX));
         System.out.println("Segundo array: "+rellenarArrayY(arrayY));
         System.out.println("Suma: "+Arrays.toString(sumarArrays(arrayX,arrayY)));
         System.out.println("Division: "+Arrays.toString(dividirArrays(arrayX,arrayY)));
+
+ */
     }
 
     /**
@@ -24,6 +26,7 @@ public class Ejercicio6 {
      * @param arrayY
      * @return
      */
+    /*
     public static float [] dividirArrays(int [] arrayX, int [] arrayY){
         float [] arrayDivision = new float[arrayX];
         for (int i = 0; i < arrayX.length; i++){
@@ -31,13 +34,14 @@ public class Ejercicio6 {
         }
         return arrayDivision;
     }
-
+*/
     /**
      *
      * @param arrayX
      * @param arrayY
      * @return
      */
+    /*
     public static int [] sumarArrays(int [] arrayX, int [] arrayY){
         int [] arraySuma = new int[arrayX];
         for (int i = 0; i < arrayX.length; i++){
@@ -45,15 +49,20 @@ public class Ejercicio6 {
         }
         return arraySuma;
     }
+     */
+    /*
     public static void rellenarArrayX(double[] array, double valorMinimo, double valorMaximo) {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextDouble(valorMinimo, valorMaximo);
         }
     }
+    */
+    /*
     public static void rellenarArrayY(double[] array, double valorMinimo, double valorMaximo) {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextDouble(valorMinimo, valorMaximo);
         }
     }
+    */
 }
 

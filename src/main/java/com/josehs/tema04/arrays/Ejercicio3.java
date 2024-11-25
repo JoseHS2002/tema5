@@ -42,7 +42,7 @@ public class Ejercicio3 {
         System.out.print(numero[16]+", "+numero[17]+", "+numero[18]+", "+numero[19]);
 
     }
-
+/*
     public static String determinarLongitudMaxima(double array, int decimales) {
         if (array==null){
             return null;
@@ -68,5 +68,5 @@ public class Ejercicio3 {
         }
         return sb.toString();
     }
-
+*/
 }

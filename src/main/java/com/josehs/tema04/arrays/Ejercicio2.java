@@ -31,7 +31,7 @@ public class Ejercicio2 {
         System.out.println("Numeros impares");
         System.out.println(numero[1]+", "+numero[3]+numero[5]+", "+numero[7]+", "+numero[9]);
     }
-
+/*
     public static String arrayToString(char[] array, Paridad paridad){
         final int NUM_ELEMENTOS = paridad == Paridad.PAR ? array.length / 2 : array.length / 2 +1;
         char[] resultado;
@@ -61,5 +61,5 @@ public class Ejercicio2 {
         sb.append("]");
         return sb.toString();
     }
-
+*/
 }
